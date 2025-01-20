@@ -1,0 +1,18 @@
+Interface:
+
+    Label :
+        id: label
+        text:'test'
+        size_hint: 0.5,0.1
+        pos_hint: {"center_x":0.5, "center_y":0.6}
+
+    TextInput :
+        id: textinput
+        size_hint: 0.5,0.1
+        pos_hint: {"center_x":0.5, "center_y":0.7}
+
+    Button:
+        text: 'press me'
+        size_hint: 0.5,0.1
+        pos_hint: {"center_x":0.5, "center_y":0.5}
+        on_press: root.displayData()
